@@ -17,7 +17,7 @@ namespace DrawGeoFigures
             textBoxX.Text = DrawingPanel.PointToClient(Cursor.Position).X.ToString();
             textBoxY.Text = DrawingPanel.PointToClient(Cursor.Position).Y.ToString();
 
-            var figure = new Figure(float.Parse(textBoxX.Text) - float.Parse(textBoxWidth.Text) / 2,
+            var figure = new Rectangle(float.Parse(textBoxX.Text) - float.Parse(textBoxWidth.Text) / 2,
                 float.Parse(textBoxY.Text) - float.Parse(textBoxHeight.Text) / 2,
                 float.Parse(textBoxHeight.Text),
                 float.Parse(textBoxWidth.Text));

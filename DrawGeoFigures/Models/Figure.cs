@@ -2,9 +2,9 @@
 
 namespace DrawGeoFigures.Models
 {
-    public class Figure
+    public abstract class Figure
     {
-        public Figure(float x, float y, float height, float width)
+        protected Figure(float x, float y, float height, float width)
         {
             X = x;
             Y = y;
