@@ -103,6 +103,7 @@
             this.textBoxHeight.Size = new System.Drawing.Size(100, 20);
             this.textBoxHeight.TabIndex = 7;
             this.textBoxHeight.Text = "30";
+            this.textBoxHeight.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHeight_KeyPress);
             // 
             // labelWidth
             // 
@@ -119,6 +120,7 @@
             this.textBoxWidth.Size = new System.Drawing.Size(100, 20);
             this.textBoxWidth.TabIndex = 11;
             this.textBoxWidth.Text = "50";
+            this.textBoxWidth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHeight_KeyPress);
             // 
             // buttonClear
             // 
