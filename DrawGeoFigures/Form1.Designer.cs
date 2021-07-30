@@ -49,6 +49,7 @@
             // 
             // DrawingPanel
             // 
+            this.DrawingPanel.BackColor = System.Drawing.Color.White;
             this.DrawingPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.DrawingPanel.Location = new System.Drawing.Point(12, 12);
             this.DrawingPanel.Name = "DrawingPanel";
